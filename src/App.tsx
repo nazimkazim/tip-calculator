@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Container from './components/Container/Container';
+import Half from './components/Half/Half';
+import Input from './components/Input/Input';
+import Typography from './components/Typography/Typography';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className='app__header'>
+        <Typography spacing color='gray' tag='big' bolded>SPLI</Typography>
+        <Typography spacing color='gray' tag='big' bolded>TTER</Typography>
+      </div>
+      <Container>
+        <Half background='white'><Input/></Half>
+        <Half background='dark-gray'>dfgfdg</Half>
+      </Container>
     </div>
   );
 }

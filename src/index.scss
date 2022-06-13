@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$primary:hsl(172, 67%, 45%);
+$darkPrimary:hsl(186, 14%, 43%);
+$grayPrimary:hsl(184, 14%, 56%);
+$lightGrayPrimary:hsl(185, 41%, 84%);
+$lightGrayPrimary2:hsl(189, 41%, 97%);
+$white:hsl(0, 0%, 100%);
+
+body {
+  font-family: 'Noto Sans Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
