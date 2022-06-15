@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.percent-selector {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    //background-color: red;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+    &__number-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        //background-color: aqua;
+    }
+
+    &__label {
+        font-size: 12px;
+        font-weight: 700;
+        color: $darkPrimary;
+        margin-bottom: 4px;
+    }
+
+}
