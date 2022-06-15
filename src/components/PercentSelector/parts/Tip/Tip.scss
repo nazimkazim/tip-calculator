@@ -13,4 +13,9 @@
     font-size: 24px;
     font-weight: 700;
     color: $white;
+
+    &:hover {
+        background-color: $primary;
+        transition: background-color ease-in-out 0.3s;
+    }
 }

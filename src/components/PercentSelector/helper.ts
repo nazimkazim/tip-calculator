@@ -1,1 +1,1 @@
-export const numbers = [5, 10, 15, 25, 50, 60]
+export const numbers = [5, 10, 15, 25, 50]
