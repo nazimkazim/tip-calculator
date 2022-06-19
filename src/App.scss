@@ -51,3 +51,9 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .app__header {
+    margin-top: 30px;
+  }
+}

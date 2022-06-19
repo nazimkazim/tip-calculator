@@ -19,4 +19,8 @@
         color: $darkCyan;
         transition: background-color ease-in-out 0.3s;
     }
+
+    &.--selected {
+        background: $darkPrimary;
+    }
 }
