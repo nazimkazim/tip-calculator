@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__header">
-        <img src="/images/logo.svg" alt="logo" />
+        <img src="images/logo.svg" alt="logo" />
       </div>
       <Container>
         <Half background="white">
